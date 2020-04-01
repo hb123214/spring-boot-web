@@ -1,0 +1,21 @@
+#server:
+#  port: 8080
+#spring:
+#  profiles: dev
+#  active: dev
+#---
+#server:
+#  port: 8081
+#spring:
+#  profiles: prod
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/jdbc?serverTimezone=UTC&characterEncoding=UTF-8
+    schema:
+      - classpath:user.sql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+

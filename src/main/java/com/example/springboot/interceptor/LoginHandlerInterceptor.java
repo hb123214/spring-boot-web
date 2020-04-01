@@ -1,4 +1,4 @@
-package com.example.springboot.component;
+package com.example.springboot.interceptor;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
